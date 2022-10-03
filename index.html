@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <div>
+        <h1>CALCULADORA CIENTIFICA</h1>
+        <table>
+            <tr>
+                <td colspan="5"><input id="resultado"></td>
+        </tr>
+        <tr>
+            <td><button id="Divisores" onclick="Calculadora.divisores()">Divisores</button></td>
+            <td><button id="Invertir numero" onclick="Calculadora.invnumero()">Invertir numero</button></td>
+            <td><button id="Primo" onclick="Calculadora.nprimo()">Primo</button></td>
+            <td><button id="Perfecto" onclick="Calculadora.perfecto()">Perfecto</button></td>
+            <td><button id="Fibonacci" onclick="Calculadora.fibonacci()">Fibonacci</button></td>
+        <tr>
+            <td><button id="Base 10 a 2" onclick="Calculadora.base10a2()">Base 10 a 2</button></td>
+            <td><button id="Base 10 a 16" onclick="Calculadora.base10a16()">Base 10 a 16</button></td>
+            <td><button id="Base 10 a 8" onclick="Calculadora.base10a8()">Base 10 a 8</button></td>
+            <td><button id="Base 2 a 10" onclick="Calculadora.base2a10()">Base 2 a 10</button></td>
+            <td><button id="Base 2 a 16" onclick="Calculadora.base2a16()">Base 2 a 16</button></td>
+        </tr>
+        <tr>
+            <td><button id="Contar palabras" onclick="Calculadora.contpalabras()">Contar palabras</button></td>
+            <td><button id="Palindroma" onclick="Calculadora.palindroma()">Palindroma</button></td>
+            <td><button id="Invertir frases" onclick="Calculadora.invfrases()">Invertir frases</button></td>
+            <td><button id="Contar caracteres" onclick="Calculadora.contcaract()">Contar caracteres</button></td>
+            <td><button id="Buscar cadena" onclick="Calculadora.buscadena()">Buscar cadena</button></td>
+        </tr>
+        <tr>
+            <td><button id="Mayor arreglo" onclick="Calculadora.mayarreglo()">Mayor arreglo</button></td>
+            <td><button id="Promedio arreglo" onclick="Calculadora.proarreglo()">Promedio arreglo</button></td>
+            <td><button id="Buscar arreglo" onclick="Calculadora.buscarreglo()">Buscar arreglo</button></td>
+            <td><button id="Eliminar elemento arreglo=" onclick="Calculadora.eliminelemearreglo()">Eliminar elemento arreglo</button></td>
+            <td><button id="Insertar elemento arreglo=" onclick="Calculadora.insertelemenarreglo()">Insertar elemento arreglo</button></td>
+        </tr>
+        <tr>
+            <td colspan="5"><button type="button" onclick="Calculadora.limpiar()">AC</button></td>
+        </tr>
+        </table>   
+        <script src="../js/calculadora.js"></script>     
+    </div>
+<div style="width: 100%; margin:auto; position:relative;">
+    <audio controls autoplay loop muted>
+        <source src="audio/HIATO-ZetaII.wav" type="audio/mpeg"/>
+    </audio>
+    </body>
+</html>
